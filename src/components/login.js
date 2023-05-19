@@ -15,7 +15,10 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LoginIcon from '@mui/icons-material/Login';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
+import { useNavigate } from 'react-router-dom';
+
 function Login(){
+    const navigate=useNavigate(); 
     const [value, setValue] = useState('one');
     const [showPassword, setShowPassword] = useState(false);
     const [log,setlog]=useState({email:"",pass:"",msg:""})
@@ -45,7 +48,7 @@ function Login(){
     else if(log.pass==="")
     setlog({...log,"msg":"Enter Password"});
     else
-    setlog({...log,"msg":""});
+    navigate('/dashboard');
     
   }
   const SignSubmit = ()=>{
@@ -61,7 +64,7 @@ function Login(){
     else if(sign.cpass==="")
     setlog({...sign,"msg":"Enter Confirm Password"});
     else
-    setlog({...sign,"msg":""});
+    navigate('/dashboard');
     
   }
     return (<>
