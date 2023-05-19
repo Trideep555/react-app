@@ -124,7 +124,7 @@ function Sidebar(props) {
       >
         <Toolbar />
 
-        <h1>By Treedip</h1>
+        <h1>By Trideep</h1>
         <Typography paragraph>
           
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
