@@ -155,7 +155,7 @@ function Sidebar(props) {
           eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
           posuere sollicitudin aliquam ultrices sagittis orci a.
         </Typography>
-        <h1>BY jit</h1>
+        <h1>BY snigdha</h1>
         <Typography paragraph>
           Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
           eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
